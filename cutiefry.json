@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "cutiefry_fb",
+	"version" : "1.0",
+
+	"description": "edits css on facebook.com to be cute."
+	"icons": {
+		"48": "icons/icon-48.gif"
+	},
+
+	"applications": {
+		"gecko": {
+			"id": "mleeshadid@gmail.com"
+			"strict_min_version": "45.0"
+		}
+	},
+
+	"content_scripts":[
+		{
+			"matches": ["*://.facebook.com/*"],
+			"js": ["cutiefry"]
+		}
+
+	]
+
+}
