@@ -20,6 +20,8 @@
 		{
 			"matches": ["*://*.facebook.com/*"],
 			"js": ["javascript/cutiefry.js"]
+			"js": ["javascript/names.js"]
+			"js": ["javascript/ptag.js"]
 		}
 
 	]
